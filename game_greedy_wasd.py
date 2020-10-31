@@ -22,7 +22,6 @@ def actor(board):
     if board != down_board and down_board[0][0] != 0:
         return down_board
 
-    print('oof')
     # Can't keep piece in upper left, try to keep our pattern
     if board != up_board:
         return up_board
